@@ -31,15 +31,19 @@ public class Tasks {
         System.out.println("Austria :");
         int c1 = Integer.parseInt(quest.readLine());
         System.out.println("Continued :");
-        double t1 = Integer.parseInt(quest.readLine());
+        int t1 = Integer.parseInt(quest.readLine());
+        System.out.println("Counted Austria:" + c1 * t1);
         System.out.println("Morocco :");
         int c2 = Integer.parseInt(quest.readLine());
         System.out.println("Continued :");
-        double t2 = Integer.parseInt(quest.readLine());
+        int t2 = Integer.parseInt(quest.readLine());
+        System.out.println("Counted Morocco:" + c2 * t2);
         System.out.println("Ukraine :");
         int c3 = Integer.parseInt(quest.readLine());
         System.out.println("Continued :");
-        double t3 = Integer.parseInt(quest.readLine());
+        int t3 = Integer.parseInt(quest.readLine());
+        System.out.println("Counted Ukraine:" + c3 * t3);
+        System.out.println("All calls together : " + (c1 * t1 + c2 * t2 + c3 * t3));
 
 
 
