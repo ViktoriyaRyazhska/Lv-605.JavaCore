@@ -1,0 +1,25 @@
+package com.company;
+
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
+public class Kata {
+    public static void main(String[] args) {
+        System.out.println(datingRange(10));
+    }
+
+    public static String datingRange(int age) {
+//        int min = 0;
+//        int max = 0;
+////        if (age <= 14) {
+////            min = (int) (age - 0.10 * age);
+////            max = (int) (age + 0.10 * age);
+////        } else {
+////            min = (int) (age / 2 + 7);
+////            max = (int) ((age - 7) * 2);
+////        }
+//        int min = age <= 14 ? (int) (age - 0.10 * age) : (int) (age / 2 + 7);
+//        int max = age <= 14 ? (int) (age + 0.10 * age) : (int) ((age - 7) * 2);
+        return "" + (age <= 14 ? (int) (age - 0.10 * age) : (int) (age / 2 + 7)) +
+                "-" + (age <= 14 ? (int) (age + 0.10 * age) : (int) ((age - 7) * 2));
+    }
+}
