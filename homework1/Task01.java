@@ -9,7 +9,8 @@ public class Task01 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Please enter radius of your flower bed: ");
 		try {
-				radius = Double.parseDouble(br.readLine());
+			radius = Double.parseDouble(br.readLine());
+			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
