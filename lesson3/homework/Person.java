@@ -1,5 +1,10 @@
 package lesson2;
 
+import java.time.LocalDate;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Person {
 	private String firstName;
 	private String lastName;
@@ -12,12 +17,16 @@ public class Person {
 	}
 	//methods
 	public int getAge() {
-		return 2021-this.birthYear;
+		return LocalDate.now().getYear()-this.birthYear;
 	}
-	public void input(String firstName, String lastName, int birthYear) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthYear = birthYear;
+	public void input() throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.print("Input firstName: ");
+		firstName = br.readLine();
+		System.out.print("Input lastName: ");
+		lastName = br.readLine();
+		System.out.print("Input birthYear: ");
+		birthYear = Integer.parseInt(br.readLine()) ;
 	}
 	public void output() {
 		System.out.println("firstName = " + firstName +
