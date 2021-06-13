@@ -21,13 +21,18 @@ public class Task03 {
 			t2 = Double.parseDouble(br.readLine());
 			System.out.println("Please enter the duration for all the phone calls from Australia (minutes): ");
 			t3 = Double.parseDouble(br.readLine());
-			br.close();
 			System.out.println("The cost of the calls from Ukraine is " + c1 * t1 + ".");
 			System.out.println("The cost of the calls from USA is " + c2 * t2 + ".");
 			System.out.println("The cost of the calls from Australia is " + c3 * t3 + ".");
 			System.out.println("The cost of all the calls together is " +((c1 * t1)+(c2 * t2)+(c3 * t3))+ ".");
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				br.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
