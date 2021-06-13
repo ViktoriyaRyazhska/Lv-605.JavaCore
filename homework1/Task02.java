@@ -13,9 +13,14 @@ public class Task02 {
 			System.out.println("Where do you live, " + name + "?");
 			adress = br.readLine();
 			System.out.println("Hi, " + name + " you live in " + adress +"!");
-			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
+		}finally {
+			try {
+				br.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 }
