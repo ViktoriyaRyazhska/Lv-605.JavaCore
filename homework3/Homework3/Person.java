@@ -38,31 +38,5 @@ public class Person {
                 ", birthYear = " + birthYear +
                 ", age = " + this.getAge());
     }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public int getBirthYear() {
-        return birthYear;
-    }
-
-    public void setBirthYear(int birthYear) {
-        this.birthYear = birthYear;
-    }
-
-
-
+    // тут були гетери й сетери але я їх прибрав, бо не зрозумів навіщо вони при читанні з буфера
 }
