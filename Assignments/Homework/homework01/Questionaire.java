@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class lesson01_homework02 {
+public class Questionaire {
 	public static void main (String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
