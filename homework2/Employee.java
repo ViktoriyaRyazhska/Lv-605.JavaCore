@@ -2,9 +2,9 @@ package homework2;
 
 public class Employee {
 	private String name;
-	double rate;
-	double hours;
-	static double totalSum = 0.0;
+	private double rate;
+	private double hours;
+	private static double totalSum = 0.0;
 
 	public String getName() {
 		return name;
