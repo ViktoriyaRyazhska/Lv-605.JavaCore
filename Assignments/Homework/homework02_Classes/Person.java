@@ -2,7 +2,6 @@ package homework02_Classes;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Person {
 	private static int presentYear = 2021;
@@ -52,9 +51,7 @@ public class Person {
 		return presentYear - birthYear;
 	}
 
-	BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));
-
-	public void input() throws IOException {
+	public void input(BufferedReader buff) throws IOException {
 		if (firstName == null) {
 			System.out.println("Please enter the first name of a person ID " + id + ":");
 			firstName = buff.readLine();

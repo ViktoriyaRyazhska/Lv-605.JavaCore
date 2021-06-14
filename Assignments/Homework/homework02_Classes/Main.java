@@ -1,21 +1,26 @@
 package homework02_Classes;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
+		
+		BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));
+		
 		Person pers01 = new Person("John", "Sins");
 		Person pers02 = new Person();
 		Person pers03 = new Person("Mary", "Kay");
 		Person pers04 = new Person();
 		Person pers05 = new Person("Bartholomew", "Quadzinsky");
 
-		pers01.input();
-		pers02.input();
-		pers03.input();
-		pers04.input();
-		pers05.input();
+		pers01.input(buff);
+		pers02.input(buff);
+		pers03.input(buff);
+		pers04.input(buff);
+		pers05.input(buff);
 
 		pers01.output();
 		pers05.output();
