@@ -1,27 +1,35 @@
 package homework2;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
 	
 	public static void main (String [] args) throws IOException {
 		
-		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));		
+				
 		Person p1 = new Person();
-		Person p2 = new Person();
-		Person p3 = new Person();
-		Person p4 = new Person();
-		Person p5 = new Person();
+		p1.input(br);		
 		
-		p1.input();
-		p2.input();
-		p3.input();
-		p4.input();
-		p5.input();
+		Person p2 = new Person();
+		p2.input(br);
+				
+		Person p3 = new Person();		
+		p3.input(br);
+		
+		Person p4 = new Person();
+		p4.input(br);
+		p4.changeName("Oleg", "Makara");// changeName method
+		
+		Person p5 = new Person();
+		p5.input(br);
 		
 		p1.output();
 		p2.output();
 		p3.output();
+		
 		p4.output();
 		p5.output();
 	}

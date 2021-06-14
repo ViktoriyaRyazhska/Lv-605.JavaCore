@@ -9,6 +9,7 @@ public class Person {
 	private String firstName, lastName;
 	private int birthYear;
 	
+	// Getter & Setter
 	
 	public String getFirstName() {
 		return firstName;
@@ -30,37 +31,43 @@ public class Person {
 	}
 	
 	
-	public Person() {
-		
+	
+	// Constructors
+	
+	public Person() {	
 	}
+	
 	public Person(String firstName, String lastName) {
-		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		;
 	}
 	
 	
+	// Methods
 	
 	public int getAge() {
 		return 2021 - birthYear;
 	}
 	
-	public void input() throws IOException {
+	public void changeName (String fn, String ln) {
+		
+		this.firstName = fn;
+		this.lastName = ln;
+	}
 	
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	public void input(BufferedReader br) throws IOException {
+		
 		System.out.println("Enter First Name");
-		firstName = br.readLine();
+		this.firstName = br.readLine();
 		System.out.println("Enter Last Name");
-		lastName = br.readLine();
+		this.lastName = br.readLine();
 		System.out.println("Enter The Birth Year");
-		birthYear = Integer.parseInt(br.readLine());
+		this.birthYear = Integer.parseInt(br.readLine());
 	}
 	
 	public void output() {
-		System.out.println( "The First Name is - " + firstName + " The Last Nme is -" + lastName  + "The Age is - " + this.getAge());
+		System.out.println( "The First Name is - " + firstName + "/ The Last Nme is - " + lastName  + "/ The Age is - " + this.getAge());
 		}
 
-	
+	}
 
-}
