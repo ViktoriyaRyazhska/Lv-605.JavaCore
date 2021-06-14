@@ -79,28 +79,18 @@ public class Person {
 		this.firstName = fn;
 		this.lastName = ln;
 	}
-	
-	public static Person getPerson() {
-		return new Person();
-	}
 
 	public static void main(String[] args) {
-		Person person1 = new Person();
-		Person person2 = new Person();
-		Person person3 = new Person();
-		Person person4 = new Person();
-		Person person5 = new Person();
-		
-		person1.input();
-		person2.input();
-		person3.input();
-		person4.input();
-		person5.input();
-		
-		person1.output();
-		person2.output();
-		person3.output();
-		person4.output();
-		person5.output();
+		Person[] perArray = new Person[4];
+
+		for (int i = 0; i < perArray.length; i++) {
+			perArray[i] = new Person();
+		}
+		for(Person p : perArray) {
+			p.input();
+		}
+		for(Person p : perArray) {
+			p.output();
+		}
 	}
 }
