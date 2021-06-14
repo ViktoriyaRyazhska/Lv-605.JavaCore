@@ -1,12 +1,15 @@
 package homework2;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.IOException;
 
+//class
 public class Person {
+    //fields
        private String firstName;
        private String lastName;
        private int birthYear;
+       //constructor
        public Person() {
        }
        public Person(String firstName) {
@@ -42,16 +45,26 @@ public class Person {
        public void setBirthYear(int birthYear) {
               this.birthYear = birthYear;
        }
-
-      public int getAge() {
+//methods
+      public int getAge() { //calculate age
               return 2021 - birthYear;
        }
-       public void input () {
+       public void input (BufferedReader br) throws IOException { //input info
+           System.out.println("Name : ");
+           this.firstName= br.readLine();
+           System.out.println("Surname : ");
+           this.lastName= br.readLine();
+           System.out.println("Year of birth : ");
+           this.birthYear = Integer.parseInt(br.readLine());
        }
-
-    @Override
+    @Override //output info
        public String toString() {
-              return "Person[firstName=" + firstName +", lastName=" + lastName +", age=" + this.getAge() +"]";
+              return "Person[firstName=" + firstName +", lastName=" + lastName +", birthYear=" + birthYear +"," +
+                      " age=" + this.getAge() +"]";
+       }
+       public void change(String newfirstName, String newlastName) {
+           this.firstName=newfirstName;
+           this.lastName=newlastName;
        }
 
 }
