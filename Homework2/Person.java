@@ -46,11 +46,14 @@ public class Person {
       public int getAge() {
               return 2021 - birthYear;
        }
+       public void input () {
+       }
 
     @Override
        public String toString() {
               return "Person[firstName=" + firstName +", lastName=" + lastName +", age=" + this.getAge() +"]";
        }
+
 }
 
 

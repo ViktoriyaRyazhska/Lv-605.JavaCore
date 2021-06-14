@@ -33,15 +33,16 @@ public class Main2 {
         int result4 = p4.getAge();
         int result5 = p5.getAge();
 
-        BufferedReader quest = new BufferedReader(
-                new InputStreamReader(System.in));
 
-        System.out.println("Write your name!");
-        String name = quest.readLine();
-        System.out.println(p1);
-        System.out.println("Write year of birth!");
-        int birthYer = Integer.parseInt(quest.readLine());
-        System.out.println(p1);
+
+
+
+
+
+
+
+
+
 
 
 
