@@ -1,4 +1,4 @@
-package edu.boxtest;
+package HomeWork1;
 
 import javax.swing.*;
 
