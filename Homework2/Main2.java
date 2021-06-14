@@ -1,19 +1,25 @@
 package homework2;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Main2 {
-    public static void main (String... args) {
+    public static void main (String... args) throws IOException {
         Person p1 = new Person();
-        p1.setName("Olena");
+        p1.setFirstName("Olena");
+        p1.setLastName("Nester");
         p1.setBirthYear(1995);
 
         Person p2 = new Person("Julia");
+        p2.setLastName("Storozhyshyn");
         p2.setBirthYear(1994);
 
-        Person p3 = new Person("Vlad", 2018);
+        Person p3 = new Person("Vlad", "Storozhyshyn", 2018);
 
-        Person p4 = new Person("Elis", 2017);
+        Person p4 = new Person("Elis", "Zernyak", 2017);
 
-        Person p5 = new Person("Max", 2002);
+        Person p5 = new Person("Max", "Nester", 2002);
 
         System.out.println(p1);
         System.out.println(p2);
@@ -26,6 +32,18 @@ public class Main2 {
         int result3 = p3.getAge();
         int result4 = p4.getAge();
         int result5 = p5.getAge();
+
+        BufferedReader quest = new BufferedReader(
+                new InputStreamReader(System.in));
+
+        System.out.println("Write your name!");
+        String name = quest.readLine();
+        System.out.println(p1);
+        System.out.println("Write year of birth!");
+        int birthYer = Integer.parseInt(quest.readLine());
+        System.out.println(p1);
+
+
 
     }
 }

@@ -1,27 +1,41 @@
 package homework2;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class Person {
-       private String name;
+       private String firstName;
+       private String lastName;
        private int birthYear;
        public Person() {
        }
-       public Person(String name) {
-              this.name = name;
+       public Person(String firstName) {
+              this.firstName = (firstName);
        }
-       public Person(String name, int birthYear) {
-              this.name = name;
-              this.birthYear = birthYear;
+       public Person(String firstName, String lastName) {
+              this.firstName = firstName;
+              this.lastName = lastName ;
        }
-
-       public String getName() {
-              return name;
-       }
-
-       public void setName(String name) {
-              this.name = name;
+       public Person(String firstName, String lastName, int birthYear) {
+           this.firstName = firstName;
+           this.lastName = lastName;
+           this.birthYear = birthYear;
        }
 
-       public int getBirthYear() {
+    public String getFirstName() {
+        return firstName;
+    }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    public String getLastName() {
+        return lastName;
+    }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public int getBirthYear() {
               return birthYear;
        }
 
@@ -35,7 +49,7 @@ public class Person {
 
     @Override
        public String toString() {
-              return "Person[name=" + name +", birthYear=" + birthYear +", age=" + this.getAge() +"]";
+              return "Person[firstName=" + firstName +", lastName=" + lastName +", age=" + this.getAge() +"]";
        }
 }
 
