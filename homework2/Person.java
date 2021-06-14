@@ -43,8 +43,7 @@ public class Person {
 		System.out.println(this.firstName + " age is: " + (Calendar.getInstance().get(Calendar.YEAR) - this.birthYear));
 	}
 
-	public void input() {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	public void input(BufferedReader br) {
 		System.out.println("Please enter persons first name: ");
 		try {
 			this.firstName = br.readLine();
@@ -82,15 +81,21 @@ public class Person {
 
 	public static void main(String[] args) {
 		Person[] perArray = new Person[4];
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		for (int i = 0; i < perArray.length; i++) {
 			perArray[i] = new Person();
 		}
-		for(Person p : perArray) {
-			p.input();
+		for (Person p : perArray) {
+			p.input(br);
 		}
-		for(Person p : perArray) {
+		for (Person p : perArray) {
 			p.output();
+		}
+		try {
+			br.close();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 	}
 }
