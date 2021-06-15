@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 
 public class Source {
     public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         Person person1 = new Person();
         person1.setFirstName("Volodya");
         person1.setLastName("Hrytsuk");
@@ -26,7 +28,7 @@ public class Source {
         System.out.println("Age of the fourth person: " + person4.getAge());
 
         Person person5 = new Person();
-        person5.input();
+        person5.input(br);
 
         System.out.println(person1.output());
         System.out.println(person2.output());
@@ -34,7 +36,6 @@ public class Source {
         System.out.println(person4.output());
         System.out.println(person5.output());
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Change your first and last name data of first person: ");
         person1.changeName(br.readLine(), br.readLine());
         System.out.println("Change your first and last name data of second person: ");

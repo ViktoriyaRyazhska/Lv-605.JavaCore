@@ -2,11 +2,12 @@ import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.LocalDate;
 
 public class Person {
-    public String firstName;
-    public String lastName;
-    public int birthYear;
+    private String firstName;
+    private String lastName;
+    private int birthYear;
 
     Person() {
     }
@@ -42,7 +43,7 @@ public class Person {
 
     public int getAge() {
         if (this.birthYear >= 1950 && this.birthYear <= 2021)
-            return 2021 - this.birthYear;
+            return LocalDate.now().getYear() - this.birthYear;
         else {
             System.out.println("Age of person is not right");
             return 0;
@@ -57,20 +58,13 @@ public class Person {
                 '}';
     }
 
-    public void input() throws IOException {
-        String firstName;
-        String lastName;
-        int birthYear;
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public void input(BufferedReader br) throws IOException {
         System.out.println("Enter the first name of the person: ");
-        firstName = br.readLine();
+        this.firstName = br.readLine();
         System.out.println("Enter the last name of the person: ");
-        lastName = br.readLine();
+        this.lastName = br.readLine();
         System.out.println("Enter the year of birth of the person: ");
-        birthYear = Integer.parseInt(br.readLine());
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.birthYear = birthYear;
+        this.birthYear = Integer.parseInt(br.readLine());
     }
 
     public void changeName(String firstName, String lastName) {
