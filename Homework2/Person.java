@@ -2,6 +2,7 @@ package homework2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.time.LocalDate;
 
 //class
 public class Person {
@@ -47,7 +48,7 @@ public class Person {
        }
 //methods
       public int getAge() { //calculate age
-              return 2021 - birthYear;
+              return LocalDate.now().getYear() - this.birthYear;
        }
        public void input (BufferedReader br) throws IOException { //input info
            System.out.println("Name : ");
