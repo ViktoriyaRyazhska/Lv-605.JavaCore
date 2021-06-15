@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
 public class ContinentTest {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		Continent[] allCont = Continent.values(); //Утворюю масив типу Continent з усіма можливими обєктами
+		Continent[] allCont = Continent.values(); //РЈС‚РІРѕСЂСЋСЋ РјР°СЃРёРІ С‚РёРїСѓ Continent Р· СѓСЃС–РјР° РјРѕР¶Р»РёРІРёРјРё РѕР±С”РєС‚Р°РјРё
 		
-		System.out.print("Enter name of the country: "); //вводити англійською
+		System.out.print("Enter name of the country: "); //РІРІРѕРґРёС‚Рё Р°РЅРіР»С–Р№СЃСЊРєРѕСЋ
 		String country = br.readLine();
 		
-		for(Continent c: allCont) { //цикл for each
-			if(c.isCountryOn(country)) { //викликаю метод який перевіряє чи присутня така країна на одному з материків
-				System.out.println("This country is in: "+c.toString().toLowerCase()); //виводжу назву країни в консоль
+		for(Continent c: allCont) { //С†РёРєР» for each
+			if(c.isCountryOn(country)) { //РІРёРєР»РёРєР°СЋ РјРµС‚РѕРґ СЏРєРёР№ РїРµСЂРµРІС–СЂСЏС” С‡Рё РїСЂРёСЃСѓС‚РЅСЏ С‚Р°РєР° РєСЂР°С—РЅР° РЅР° РѕРґРЅРѕРјСѓ Р· РјР°С‚РµСЂРёРєС–РІ
+				System.out.println("This country is in: "+c.toString().toLowerCase()); //РІРёРІРѕРґР¶Сѓ РЅР°Р·РІСѓ РєСЂР°С—РЅРё РІ РєРѕРЅСЃРѕР»СЊ
 				break;
 			} 
 		}
