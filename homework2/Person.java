@@ -3,6 +3,7 @@ package homework2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.LocalDate;
 
 public class Person {
 
@@ -46,11 +47,10 @@ public class Person {
 	// Methods
 	
 	public int getAge() {
-		return 2021 - birthYear;
+		return LocalDate.now().getYear() - birthYear;
 	}
 	
 	public void changeName (String fn, String ln) {
-		
 		this.firstName = fn;
 		this.lastName = ln;
 	}
