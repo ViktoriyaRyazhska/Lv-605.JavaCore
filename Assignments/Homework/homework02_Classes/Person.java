@@ -2,9 +2,10 @@ package homework02_Classes;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.time.LocalDate;
 
 public class Person {
-	private static int presentYear = 2021;
+//	private static int presentYear = 2021;
 	private static int count = 1;
 	private int id;
 	private String firstName;
@@ -48,7 +49,7 @@ public class Person {
 	}
 
 	public int getAge() {
-		return presentYear - birthYear;
+		return LocalDate.now().getYear() - birthYear;
 	}
 
 	public void input(BufferedReader buff) throws IOException {
