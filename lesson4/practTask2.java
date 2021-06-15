@@ -11,28 +11,28 @@ public class practTask2 {
 		int dayNumber = Integer.parseInt(br.readLine());
 		switch (dayNumber) {
 		case 1:
-			System.out.println("Monday, Понеділок, Понедельник");
-			break;
+			System.out.println("Monday, РџРѕРЅРµРґС–Р»РѕРє, РџРѕРЅРµРґРµР»СЊРЅРёРє");
+		      break;
 		case 2:
-			System.out.println("Tuesdat, Вівторок, Вторник");
-			break;
+		      System.out.println("Tuesdat, Р’С–РІС‚РѕСЂРѕРє, Р’С‚РѕСЂРЅРёРє");
+		      break;
 		case 3:
-			System.out.println("Wedensday, Середа, Среда");
-			break;
+		      System.out.println("Wedensday, РЎРµСЂРµРґР°, РЎСЂРµРґР°");
+		      break;
 		case 4:
-			System.out.println("Thursday, Четвер, Четверг");
-			break;
+		      System.out.println("Thursday, Р§РµС‚РІРµСЂ, Р§РµС‚РІРµСЂРі");
+		      break;
 		case 5:
-			System.out.println("Friday, Пятниця, Пятница");
-			break;
+		      System.out.println("Friday, РџСЏС‚РЅРёС†СЏ, РџСЏС‚РЅРёС†Р°");
+		      break;
 		case 6:
-			System.out.println("Saturday, Субота, Суббота");
-			break;
+		      System.out.println("Saturday, РЎСѓР±РѕС‚Р°, РЎСѓР±Р±РѕС‚Р°");
+		      break;
 		case 7:
-			System.out.println("Sunday, Неділя, Воскресение");
-			break;
+		      System.out.println("Sunday, РќРµРґС–Р»СЏ, Р’РѕСЃРєСЂРµСЃРµРЅРёРµ");
+		      break;
 		default:
-			System.out.println("You entered the wrong number!");
+		      System.out.println("You entered the wrong number!");
 			break;
 		}
 	}

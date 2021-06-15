@@ -9,7 +9,7 @@ public class Product {
 	private int price;
 	private int quantity;
 	
-	//конструктор в якому зчитую всі поля з консолі
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РІ СЏРєРѕРјСѓ Р·С‡РёС‚СѓСЋ РІСЃС– РїРѕР»СЏ Р· РєРѕРЅСЃРѕР»С–
 	public Product(BufferedReader br) throws IOException{
 		System.out.println("Enter values for " + ID + "st product");
 		ID++;

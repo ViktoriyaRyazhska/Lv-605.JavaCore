@@ -6,19 +6,19 @@ public enum Continent {
 	NORTH_AMERICA("USA", "Canada", "Texas"), 
 	SOUTH_AMERICA("Brazil", "Colombia", "Peru"), 
 	AUSTRALIA("Australia", "Papua New Guinea"), 
-	ANTARCTICA("Antarctica"); //Перечисляю континенти і країни в них
-	
+	ANTARCTICA("Antarctica"); //РџРµСЂРµС‡РёСЃР»СЏСЋ РєРѕРЅС‚РёРЅРµРЅС‚Рё С– РєСЂР°С—РЅРё РІ РЅРёС…
 
-	private String[] countries; //масив в який конструктор записує країни, які йому передаються
 	
-	//конструктор, який приймає масив з назв країн і записує їх в countries[]
+	private String[] countries; //РјР°СЃРёРІ РІ СЏРєРёР№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р·Р°РїРёСЃСѓС” РєСЂР°С—РЅРё, СЏРєС– Р№РѕРјСѓ РїРµСЂРµРґР°СЋС‚СЊСЃСЏ
+	
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ, СЏРєРёР№ РїСЂРёР№РјР°С” РјР°СЃРёРІ Р· РЅР°Р·РІ РєСЂР°С—РЅ С– Р·Р°РїРёСЃСѓС” С—С… РІ countries[]
 	Continent(String... countries){  				  
 		this.countries = countries;					  
 	}
-	//метод який приймає назву країни і перевіряє чи присутня вона у обєкті классу
+	//РјРµС‚РѕРґ СЏРєРёР№ РїСЂРёР№РјР°С” РЅР°Р·РІСѓ РєСЂР°С—РЅРё С– РїРµСЂРµРІС–СЂСЏС” С‡Рё РїСЂРёСЃСѓС‚РЅСЏ РІРѕРЅР° Сѓ РѕР±С”РєС‚С– РєР»Р°СЃСЃСѓ
 	public boolean isCountryOn(String country) {
-		for(String c:countries) { //цикл for each
-			if(c.toLowerCase().equals(country.toLowerCase())) { //порівнюю значення в масиві з назвою крахни
+		for(String c:countries) { //пїЅпїЅпїЅпїЅ for each
+			if(c.toLowerCase().equals(country.toLowerCase())) { //РїРѕСЂС–РІРЅСЋСЋ Р·РЅР°С‡РµРЅРЅСЏ РІ РјР°СЃРёРІС– Р· РЅР°Р·РІРѕСЋ РєСЂР°С—РЅРё
 				return true;
 			}
 		}
