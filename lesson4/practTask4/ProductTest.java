@@ -9,20 +9,20 @@ public class ProductTest {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Product products[] = new Product[4];
-		//заповнюю масив обєктів типу Product значеннями(див. конструктор класу)
+		//Р·Р°РїРѕРІРЅСЋСЋ РјР°СЃРёРІ РѕР±С”РєС‚С–РІ С‚РёРїСѓ Product Р·РЅР°С‡РµРЅРЅСЏРјРё(РґРёРІ. РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєР»Р°СЃСѓ)
 		for(int i = 0; i<products.length; i++) {
 			products[i] = new Product(br);
 		}
 		
-		int maxPriceIndex = 0; //створюю змінну для того, щоб пізніше внести в неї індекс, обєкту в масиві з найбільшою вартістю
+		int maxPriceIndex = 0; //СЃС‚РІРѕСЂСЋСЋ Р·РјС–РЅРЅСѓ РґР»СЏ С‚РѕРіРѕ, С‰РѕР± РїС–Р·РЅС–С€Рµ РІРЅРµСЃС‚Рё РІ РЅРµС— С–РЅРґРµРєСЃ, РѕР±С”РєС‚Сѓ РІ РјР°СЃРёРІС– Р· РЅР°Р№Р±С–Р»СЊС€РѕСЋ РІР°СЂС‚С–СЃС‚СЋ
 		for(int i = 0; i<products.length; i++) {
-			//прорівнюю продукт з індексом [i] з продуктом з у якого найбільша ціна, якшо перший продукт більше, то міняю значення maxPriceIndex 
+			//РїСЂРѕСЂС–РІРЅСЋСЋ РїСЂРѕРґСѓРєС‚ Р· С–РЅРґРµРєСЃРѕРј [i] Р· РїСЂРѕРґСѓРєС‚РѕРј Р· Сѓ СЏРєРѕРіРѕ РЅР°Р№Р±С–Р»СЊС€Р° С†С–РЅР°, СЏРєС€Рѕ РїРµСЂС€РёР№ РїСЂРѕРґСѓРєС‚ Р±С–Р»СЊС€Рµ, С‚Рѕ РјС–РЅСЏСЋ Р·РЅР°С‡РµРЅРЅСЏ maxPriceIndex 
 			if(products[i].getPrice()>products[maxPriceIndex].getPrice()) maxPriceIndex = i; 
 		}
 		System.out.println("The most expensive product is: " + products[maxPriceIndex].getName() 
 				+ ", and its quantity: " + products[maxPriceIndex].getQuantity());
 		
-		int maxQuantityIndex = 0; //той самий принцип, що і вище, тількиз кількістю продукту
+		int maxQuantityIndex = 0; //С‚РѕР№ СЃР°РјРёР№ РїСЂРёРЅС†РёРї, С‰Рѕ С– РІРёС‰Рµ, С‚С–Р»СЊРєРё Р· РєС–Р»СЊРєС–СЃС‚СЋ РїСЂРѕРґСѓРєС‚Сѓ
 		for(int i = 0; i<products.length; i++) {
 			if(products[i].getQuantity()>products[maxPriceIndex].getQuantity()) maxQuantityIndex = i;
 		}
