@@ -84,6 +84,7 @@ class Product {
 
 public class Task04 {
 	public static void main(String[] args) {
+		Product test = new Product("otonoe", 15.0, 120);
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Product[] products = new Product[4];	
 		for (int i = 0; i < products.length; i++) {
