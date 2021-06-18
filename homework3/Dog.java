@@ -76,6 +76,7 @@ public class Dog {
 	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Dog[] dogs = new Dog[3];
+		
 		for (int i = 0; i < dogs.length; i++) {
 			dogs[i] = new Dog();
 		}
@@ -86,14 +87,27 @@ public class Dog {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			System.out.println("Please enter dog " + (i + 1) 
-					+ " breed (COLLIE, BOXER, PUG, DALMATIAN, LABRADOR):");
-			try {
-				//TODO: We should check the wrong input here.
-				dogs[i].setBreed(Breed.valueOf(br.readLine()));
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+			
+			//String userInput is used for user input check. 
+			//If user input is wrong do/while loop repeats the request.
+			// Thanks to Viktoriya Ryazhska for help with the code block below.
+
+			String userInput = "";
+			boolean userInputIsCorrect;
+			do {
+				userInputIsCorrect = true;
+				System.out.println("Please enter dog " + (i + 1) 
+						+ " breed (COLLIE, BOXER, PUG, DALMATIAN, LABRADOR):");
+				try {
+					userInput = br.readLine();
+					dogs[i].setBreed(Breed.valueOf(userInput));
+				} catch (Exception e) {
+					System.out.println("Bad input.");
+					userInputIsCorrect = false;
+					e.printStackTrace();
+				} 
+			}while(!userInputIsCorrect);
+			
 			System.out.println("Please enter dog " + (i + 1) + " age:");
 			try {
 				dogs[i].setAge(Integer.parseInt(br.readLine()));
