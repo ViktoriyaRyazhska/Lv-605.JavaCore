@@ -5,7 +5,7 @@ N|Name| HW1 | HW2. Classes|HW3. If...|HW4. Loops|HW5. OOP1 |HW6. OOP2 |HW7. Inne
 1|Yakovliev|+|+|||||||||||
 2|PavloSkolozdra|+|+|+||||||||||
 3|RomanKlymus|+|+|.||||||||||
-4|OlenaNester|+|+|||||||||||
+4|OlenaNester|+|+|.||||||||||
 5|HlushkoAndrii|+|+|||||||||||
 6|Atentat|+|+|||||||||||
 7|KuzbytMaksym|+|+|||||||||||
