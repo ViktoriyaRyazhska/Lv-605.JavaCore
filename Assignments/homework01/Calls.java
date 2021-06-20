@@ -1,4 +1,5 @@
-import java.util.Scanner;
+package homework01;
+
 import java.io.*;
 
 public class Calls {

@@ -1,4 +1,4 @@
-package homework02_Classes;
+package homework02classes;
 
 import java.io.BufferedReader;
 import java.io.IOException;

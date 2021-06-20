@@ -1,3 +1,5 @@
+package homework01;
+
 public class Flowerpot {
 
     public static void main(String[] args) {

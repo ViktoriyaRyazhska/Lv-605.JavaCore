@@ -1,4 +1,4 @@
-package practice02_Classes;
+package practice02classes;
 
 import java.text.DecimalFormat;
 

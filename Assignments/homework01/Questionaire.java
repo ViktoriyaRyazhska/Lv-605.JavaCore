@@ -1,4 +1,5 @@
-import java.io.IOException;
+package homework01;
+
 import java.util.Scanner;
 
 public class Questionaire {
