@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class ConsoleApplicationCalculator {
+public class Task_1_ConsoleApplicationCalculator {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         double chyslo1, chyslo2, rezultat;
@@ -37,7 +37,6 @@ public class ConsoleApplicationCalculator {
             rezultat = 0;
         }
         System.out.println("Result: " + rezultat);
-
 
     }
 }

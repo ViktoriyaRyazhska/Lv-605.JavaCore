@@ -33,18 +33,6 @@ API
 Training
 Blog
 About
-Lesson_3_OOP_Class_object
-Lesson_4_Condition_statements
-Lesson_5_Arrays_Loops
-Lesson_6_OOP_1
-Lesson_7_OOP_2
-Lesson_8_String_Regular_expression
-Lesson_8_Nested_Inner_classes
-Lesson_9_Collections
-Lesson_9_Exception
-Lesson_10_IO_Thread                                    
-Lesson_11__Java_8_features__Stream_API__lambda       
-Lesson_12__Code_Convention__Debug                                 
-Lesson_17_Java_EE_Servlets                                        
-Lesson_JDBC
 
+# ignore Folder
+/Test
