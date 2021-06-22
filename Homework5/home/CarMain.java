@@ -11,6 +11,7 @@ import java.util.Arrays;
 //ordered by the field year.
 public class CarMain {
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Car[] cars = {
                 new Car("Bus", 1985, 3000),
@@ -18,23 +19,32 @@ public class CarMain {
                 new Car("crossover", 1999, 2500),
                 new Car("motocycle", 2019, 1400),
         };
-       // System.out.println(cars.length);
-        // System.out.println(Arrays.toString(cars));
-        System.out.print(" Please enter year: ");
-        getAllcarsYearofproduction(cars, Integer.parseInt(br.readLine()));
-
+        getAllcarsYearofproduction(cars, getneededyear(cars, br));
         System.out.println("Sorted cars by Year:");
         getSortedByYear(cars);
 
     }
-    public static void getAllcarsYearofproduction(Car[] cars, int yearProduct) {
-        System.out.print("Here's what we found this year:  ");
-        for(Car e: cars) {
-            if(e.getYearofproduction()==yearProduct) System.out.println(e.toString());
-            else continue;
+    public static int getneededyear(Car[] cars, BufferedReader br) throws IOException{
+        int caryear;
+        while (true){
+            System.out.print(" Please enter year: ");
+            caryear = Integer.parseInt(br.readLine());
+            for (Car e: cars){
+                if (e.getYearofproduction()==caryear){
+                    return caryear;
+                }
+            }
+            System.out.println("You entered wrong year, try again.");
         }
-
     }
+    public static void getAllcarsYearofproduction(Car[] cars, int yearProduct) {
+
+            System.out.print("Here's what we found this year:  ");
+            for(Car e: cars) {
+                if (e.getYearofproduction()==yearProduct)
+                    System.out.println(e);
+            }
+        }
     public static void getSortedByYear(Car[] cars) {
         Car temp;
         for(int i = 0; i < cars.length; i++) {
