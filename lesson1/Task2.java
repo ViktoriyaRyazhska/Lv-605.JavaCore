@@ -1,4 +1,4 @@
-package softserveJavaCore.lesson1;
+package lesson1;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
