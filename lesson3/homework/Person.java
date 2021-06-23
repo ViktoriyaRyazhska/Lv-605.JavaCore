@@ -1,4 +1,4 @@
-package lesson2;
+package lesson3.homework;
 
 import java.time.LocalDate;
 import java.io.BufferedReader;

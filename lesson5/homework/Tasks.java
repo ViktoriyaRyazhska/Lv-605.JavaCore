@@ -2,7 +2,7 @@ package lesson5.homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+
 
 public class Tasks {
 	//task1
