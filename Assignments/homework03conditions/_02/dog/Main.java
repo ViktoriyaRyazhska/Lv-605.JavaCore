@@ -10,8 +10,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Dog one = new Dog("Lafi", Breed.BULLDOG, 4);
-		Dog two = new Dog("Chuck", Breed.BULLDOG, 7);
-		Dog three = new Dog("Molly", Breed.BULLDOG, 2);
+		Dog two = new Dog("Chuck", Breed.RETRIEVER, 7);
+		Dog three = new Dog("Molly", Breed.ROTTWEILER, 2);
 
 		Dog oldest = one;
 
