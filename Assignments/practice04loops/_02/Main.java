@@ -10,27 +10,30 @@ import java.io.InputStreamReader;
 
 public class Main {
 
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
 	public static void main(String[] args) throws Exception {
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Employee[] employees = new Employee[5];
-		employees[0] = new Employee("John", 1, 9500);
-		employees[1] = new Employee("Jane", 2, 10050);
-		employees[2] = new Employee("Anny", 1, 9800);
-		employees[3] = new Employee("Harry", 1, 11000);
-		employees[4] = new Employee("Joe", 2, 8900);
+		employees[0] = new Employee("John", Departments.LOGISTICS, 9500);
+		employees[1] = new Employee("Jane", 10050);
+		employees[2] = new Employee("Anny", Departments.MARKETING, 9800);
+		employees[3] = new Employee("Harry", 11000);
+		employees[4] = new Employee("Joe", Departments.SALES, 8900);
 
-		System.out.println("Please enter the department number to print out it's employees:");
-		int deptNum = Integer.parseInt(br.readLine());
-		if (deptNum <= 2 && deptNum >= 1) {
-			System.out.println("People from this department:");
-			for (Employee i : employees) {
-				if (i.getDeptNum() == deptNum) {
-					System.out.println(i.getName());
-				}
+		for (Employee i : employees) {
+			if (i.getDept() == null) {
+				i.setDept(br);
 			}
-		} else {
-			System.out.println("There is no such department number.");
+		}
+
+		System.out.println("Please enter the department name to print out it's employees:");
+		Departments dept = Departments.valueOf(br.readLine().toUpperCase());
+		System.out.println("People from this department:");
+		for (Employee j : employees) {
+			if (dept == j.getDept()) {
+				System.out.println(j.getName());
+			}
 		}
 
 		Employee temp;
@@ -48,10 +51,5 @@ public class Main {
 			System.out.println(i);
 		}
 
-//		Employees[1].setDeptNum(br.readLine());
-
-//		for (Employee i : Employees) {
-//			Employees[i].setDeptNum(br.readLine());
-//		}
 	}
 }

@@ -1,45 +1,51 @@
 package practice04loops._02;
 
-//import java.io.BufferedReader;
+import java.io.BufferedReader;
 
 public class Employee {
 	private String name;
-	private int deptNum;
+	private Departments dept;
 	private double salary;
+	private int id = 0;
+	private static int counter = 1;
 
-	public Employee(String name, int deptNum, double salary) {
+	public Employee(String name, Departments deptNum, double salary) {
 		this.name = name;
-		this.deptNum = deptNum;
+		this.dept = deptNum;
 		this.salary = salary;
+		id = counter;
+		counter++;
 	}
 
-//	public Employee(String name, double salary) {
-//		this.name = name;
-//		this.salary = salary;
-//	}
+	public Employee(String name, double salary) {
+		this.name = name;
+		this.salary = salary;
+		id = counter;
+		counter++;
+	}
+	public int getId() {
+		return id;
+	}
 
 	public String getName() {
 		return name;
 	}
-	
-	public int getDeptNum() {
-		return deptNum;
+
+	public Departments getDept() {
+		return dept;
 	}
 
-//	public void setDeptNum(BufferedReader br) throws Exception {
-//		if (deptNum == null) {
-//			System.out.println("Enter the name of deparment this person belongs to: LOGISTICS, MARKETING, or SALES");
-//			this.deptNum = Departments.valueOf(br.readLine());
-//		}
-//	}
+	public void setDept(BufferedReader deptNum) throws Exception{
+		System.out.println("Enter the name of deparment of the person #" + id + " (" + name + "): LOGISTICS, MARKETING, or SALES");
+		this.dept = Departments.valueOf(deptNum.readLine().toUpperCase());
+	}
 
 	public double getSalary() {
 		return salary;
 	}
-	
-	public String toString() {
-		return name + "\t" + deptNum + "\t" + salary;
-	}
 
+	public String toString() {
+		return name + "\t" + dept + "\t" + salary;
+	}
 
 }
