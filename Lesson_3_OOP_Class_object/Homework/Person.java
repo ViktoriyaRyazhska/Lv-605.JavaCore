@@ -1,10 +1,11 @@
 package Lesson_3_OOP_Class_object.Homework;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 
 public class Person {
     private String firstName, lastName;
-    private int birhYear, currentYear = Calendar.getInstance().get(Calendar.YEAR);
+    private int birhYear, currentYear = LocalDate.now().getYear();
 
     //<editor-fold desc="Constructor">
     public Person() {
