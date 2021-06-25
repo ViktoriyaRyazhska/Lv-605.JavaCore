@@ -5,7 +5,7 @@ import java.util.Calendar;
 
 public class Person {
     private String firstName, lastName;
-    private int birhYear, currentYear = LocalDate.now().getYear();
+    private int birhYear;
 
     //<editor-fold desc="Constructor">
     public Person() {
@@ -54,7 +54,7 @@ public class Person {
     //</editor-fold>
 
     public String getAge() {
-        int age = currentYear - getBirhYear();
+        int age = getCurrentYear() - getBirhYear();
     return String.format("number of year %d", age);
     }
 
@@ -70,5 +70,8 @@ public class Person {
 	public void changeName (String fn, String ln){
         setFirstName(fn); setLastName(ln);
 	}
+	public int getCurrentYear(){
+        return LocalDate.now().getYear();
+    }
 
 }
