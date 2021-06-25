@@ -23,36 +23,51 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("enter the first person the first name: "); String p1FirstName = br.readLine();
-        System.out.println("enter the first person the last name: "); String p1LastName = br.readLine();
-        System.out.println("enter the first person the year of birth: ");int p1YearOfBirth = Integer.parseInt(br.readLine());
+        System.out.println("enter the first person the first name: ");
+        String p1FirstName = br.readLine();
+        System.out.println("enter the first person the last name: ");
+        String p1LastName = br.readLine();
+        System.out.println("enter the first person the year of birth: ");
+        int p1YearOfBirth = Integer.parseInt(br.readLine());
         Person p1 = new Person();
         p1.input(p1FirstName, p1LastName, p1YearOfBirth);
         System.out.println(p1.getAge());
         System.out.println(p1.output());
 
-        System.out.println("enter the second person the second person the first name: "); String p2FirstName = br.readLine();
-        System.out.println("enter the second person last name: "); String p2LastName = br.readLine();
-        System.out.println("enter the second person the year of birth: ");int p2YearOfBirth = Integer.parseInt(br.readLine());
+        System.out.println("enter the second person the second person the first name: ");
+        String p2FirstName = br.readLine();
+        System.out.println("enter the second person last name: ");
+        String p2LastName = br.readLine();
+        System.out.println("enter the second person the year of birth: ");
+        int p2YearOfBirth = Integer.parseInt(br.readLine());
         Person p2 = new Person(p2FirstName, p2LastName, p2YearOfBirth);
         System.out.println(p2.output());
 
-        System.out.println("enter the third person the first name: "); String p3FirstName = br.readLine();
-        System.out.println("enter the third person the last name: "); String p3LastName = br.readLine();
-        System.out.println("enter the third person the the year of birth: ");int p3YearOfBirth = Integer.parseInt(br.readLine());
+        System.out.println("enter the third person the first name: ");
+        String p3FirstName = br.readLine();
+        System.out.println("enter the third person the last name: ");
+        String p3LastName = br.readLine();
+        System.out.println("enter the third person the the year of birth: ");
+        int p3YearOfBirth = Integer.parseInt(br.readLine());
         Person p3 = new Person(p3FirstName, p3LastName, p3YearOfBirth);
         System.out.println(p3.output());
 
-        System.out.println("enter the fourth person the first name: "); String p4FirstName = br.readLine();
-        System.out.println("enter the fourth person the last name: "); String p4LastName = br.readLine();
-        System.out.println("enter the fourth person the year of birth: ");int p4YearOfBirth = Integer.parseInt(br.readLine());
+        System.out.println("enter the fourth person the first name: ");
+        String p4FirstName = br.readLine();
+        System.out.println("enter the fourth person the last name: ");
+        String p4LastName = br.readLine();
+        System.out.println("enter the fourth person the year of birth: ");
+        int p4YearOfBirth = Integer.parseInt(br.readLine());
         Person p4 = new Person(p4FirstName, p4LastName, p4YearOfBirth);
         System.out.println(p4.output());
 
-        System.out.println("enter the fifth person the first name: "); String p5FirstName = br.readLine();
-        System.out.println("enter the fifth person the last name: "); String p5LastName = br.readLine();
-        System.out.println("enter the fifth person the year of birth: ");int p5YearOfBirth = Integer.parseInt(br.readLine());
-        Person p5 = new Person(p5FirstName, p5LastName,p5YearOfBirth);
+        System.out.println("enter the fifth person the first name: ");
+        String p5FirstName = br.readLine();
+        System.out.println("enter the fifth person the last name: ");
+        String p5LastName = br.readLine();
+        System.out.println("enter the fifth person the year of birth: ");
+        int p5YearOfBirth = Integer.parseInt(br.readLine());
+        Person p5 = new Person(p5FirstName, p5LastName, p5YearOfBirth);
         System.out.println(p5.output());
     }
 }

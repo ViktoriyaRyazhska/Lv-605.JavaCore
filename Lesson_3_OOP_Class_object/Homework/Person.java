@@ -55,22 +55,26 @@ public class Person {
 
     public String getAge() {
         int age = getCurrentYear() - getBirhYear();
-    return String.format("number of year %d", age);
+        return String.format("number of year %d", age);
     }
 
     public void input(String firstName, String lastName, int birhYear) {
-        setFirstName(firstName); setLastName(lastName);setBirhYear(birhYear);
+        setFirstName(firstName);
+        setLastName(lastName);
+        setBirhYear(birhYear);
     }
 
     public String output() {
         return String.format("first name: %s, last name: %s " +
-                "birthday: %d ",getFirstName(),getLastName(),getBirhYear());
+                "birthday: %d ", getFirstName(), getLastName(), getBirhYear());
     }
 
-	public void changeName (String fn, String ln){
-        setFirstName(fn); setLastName(ln);
-	}
-	public int getCurrentYear(){
+    public void changeName(String fn, String ln) {
+        setFirstName(fn);
+        setLastName(ln);
+    }
+
+    public int getCurrentYear() {
         return LocalDate.now().getYear();
     }
 
