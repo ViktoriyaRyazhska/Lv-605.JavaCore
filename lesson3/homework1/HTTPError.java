@@ -1,0 +1,5 @@
+package homework1;
+
+public enum HTTPError {
+BAD_REQUEST, UNAUTHORIZED, PAYMENT_RQUIRED, FORBIDDEN, NOT_FOUND,
+}
