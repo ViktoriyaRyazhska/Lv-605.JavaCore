@@ -16,7 +16,7 @@ public class Main {
 		employees[0] = new Employee("Vasyl", 31, 17400);
 		employees[1] = new Developer("Danylo", 36, Positions.JUNIOR, 24679);
 		employees[2] = new Employee("Olena", 29, 14850);
-		employees[3] = new Developer("Jane", 33, Positions.MIDDLE, 35760);
+		employees[3] = new Developer("Jane", 33, Positions.valueOf("MIDDLE"), 35760);
 
 		for (Employee e : employees) {
 			e.report();
