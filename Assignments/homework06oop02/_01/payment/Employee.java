@@ -2,16 +2,12 @@ package homework06oop02._01.payment;
 
 import java.util.Comparator;
 
-public class Employee implements Cloneable {
+public class Employee {
 	private String employeeId;
-	private static PaymentComparator payCompare = new PaymentComparator();
+	private static PaymentComparator paymentComparator = new PaymentComparator();
 
-	public double calculatePayment() {
-		return 0;
-	}
-
-	public static PaymentComparator getPayCompare() {
-		return payCompare;
+	public static PaymentComparator getPaymentComparator() {
+		return paymentComparator;
 	}
 
 	public Employee(String employeeId) {
@@ -28,9 +24,9 @@ public class Employee implements Cloneable {
 
 		@Override
 		public int compare(Employee p1, Employee p2) {
-			if (p1.calculatePayment() < p2.calculatePayment()) {
+			if (((Payment) p1).calculatePayment() < ((Payment) p2).calculatePayment()) {
 				return -1;
-			} else if (p1.calculatePayment() == p2.calculatePayment()) {
+			} else if (((Payment) p1).calculatePayment() == ((Payment) p2).calculatePayment()) {
 				return 0;
 			} else {
 				return 1;

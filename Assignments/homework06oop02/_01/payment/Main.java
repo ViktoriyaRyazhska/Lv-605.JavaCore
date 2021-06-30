@@ -15,12 +15,7 @@ import java.util.Arrays;
 //Arrange the entire sequence of workers descending the average monthly wage.
 //Output the employee ID, name, and the average monthly wage for all elements of the list.
 
-public class Main implements Cloneable {
-	@Override
-	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
-		return super.clone();
-	}
+public class Main {
 
 	public static void main(String[] args) {
 		Employee[] employees = new Employee[5];
@@ -34,10 +29,10 @@ public class Main implements Cloneable {
 		for (Employee e : employees) {
 			System.out.println(e);
 		}
-		
-		Arrays.sort(employees, Employee.getPayCompare());
+
+		Arrays.sort(employees, Employee.getPaymentComparator());
 		System.out.println();
-		
+
 		System.out.println("SORTED BY PAYMENT AMOUNT");
 		for (Employee e : employees) {
 			System.out.println(e);
