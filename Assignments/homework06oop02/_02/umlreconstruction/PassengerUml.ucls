@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="homework06oop02._02.umlreconstruction.Passengers" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Passengers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="182" x="570" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="homework06oop02._02.umlreconstruction.WaterVehicle" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/WaterVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="182" x="327" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="homework06oop02._02.umlreconstruction.Main" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="182" x="773" y="-30"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="homework06oop02._02.umlreconstruction.Boat" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Boat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="287" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="homework06oop02._02.umlreconstruction.Liner" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Liner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="65" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="homework06oop02._02.umlreconstruction.Bus" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Bus.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="509" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="homework06oop02._02.umlreconstruction.Helicopter" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Helicopter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="1175" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="homework06oop02._02.umlreconstruction.Plane" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Plane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="182" x="1397" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="homework06oop02._02.umlreconstruction.Car" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Car.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="731" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="homework06oop02._02.umlreconstruction.GroundVehicle" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/GroundVehicle.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="182" x="570" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="homework06oop02._02.umlreconstruction.Motorcycle" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/Motorcycle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="182" x="953" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="homework06oop02._02.umlreconstruction.FlyingVehicle" project="Assignments" 
+    file="/Assignments/src/homework06oop02/_02/umlreconstruction/FlyingVehicle.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="182" x="972" y="284"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="15">    
+    <bendpoint x="275" y="109"/>    
+    <bendpoint x="275" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="16">    
+    <bendpoint x="872" y="109"/>    
+    <bendpoint x="872" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="1184" y="109"/>    
+    <bendpoint x="1184" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <dependency id="20">    
+    <bendpoint x="782" y="109"/>    
+    <bendpoint x="782" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="22">    
+    <bendpoint x="1205" y="109"/>    
+    <bendpoint x="1205" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <dependency id="26">    
+    <bendpoint x="296" y="109"/>    
+    <bendpoint x="296" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="27">    
+    <bendpoint x="539" y="109"/>    
+    <bendpoint x="539" y="284"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
