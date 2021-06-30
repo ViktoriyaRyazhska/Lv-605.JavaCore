@@ -2,6 +2,8 @@ package lesson7.homework.task1;
 
 import java.util.Arrays;
 
+import lesson7.homework.task1.Employee.WageComparator;
+
 public class EmployeeTest {
 
 	public static void main(String[] args) {

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="lesson7.homework.task2.FlyingVehicle" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/FlyingVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="113" x="546" y="279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="lesson7.homework.task2.Passengers" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Passengers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="141" x="757" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="lesson7.homework.task2.Boat" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Boat.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="118" x="599" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="lesson7.homework.task2.Bus" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Bus.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="128" x="1063" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="lesson7.homework.task2.TestVehicle" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/TestVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="428" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="lesson7.homework.task2.Vehicle" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Vehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="113" x="757" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="lesson7.homework.task2.Helicopter" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Helicopter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="121" x="253" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="lesson7.homework.task2.Plane" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Plane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="145" x="414" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="lesson7.homework.task2.Liner" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Liner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="113" x="910" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="lesson7.homework.task2.WaterVehicle" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/WaterVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="757" y="279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="lesson7.homework.task2.Motorcycle" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Motorcycle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="134" x="1231" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="lesson7.homework.task2.Car" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/Car.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="128" x="1405" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="lesson7.homework.task2.GroundVehicle" project="Lv-605.JavaCore" 
+    file="/Lv-605.JavaCore/lesson7/homework/task2/GroundVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="116" x="1063" y="279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

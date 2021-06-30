@@ -2,7 +2,7 @@ package lesson7.homework.task1;
 
 import java.util.Comparator;
 
-public abstract class Employee {
+public abstract class Employee{
 	private String employeeID;
 	private String name;
 	static WageComparator wageComparator = new WageComparator();
