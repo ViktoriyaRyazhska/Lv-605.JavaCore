@@ -11,7 +11,7 @@ N|Name| HW1 | HW2. Classes|HW3. If...|HW4. Loops|HW5. OOP1 |HW6. OOP2 |HW7. Inne
 7|KuzbytMaksym|+|+|||||||||||
 8|Lana Kopotun|+|+|||||||||||
 9|AlexDanihevych|+|+|+|+|+||||||||
-10|Geneue|+|+|+|+|+||||||||
+10|Geneue|+|+|+|+|+|+|+||||||
 11|VolodimirM|+|+|||||||||||
 12|OlehShyb|+|+|||||||||||
 13|Victoria1991|+|+|+||||||||||
