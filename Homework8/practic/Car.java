@@ -7,9 +7,9 @@ public class Car {
     private String color;
     private int passengerCapacity;
     private double engineCapacity;
-//   теж лишній пустий метод, я незнаю нащо його в перикладах всюди тулять(пошукав незнайшов))
-//    public Car(){
-//    }
+//   заглушка
+    public Car(){
+    }
     @Override
     public String toString() {
         return "Car{" +
@@ -19,27 +19,16 @@ public class Car {
                 ", engineCapacity=" + engineCapacity +
                 '}';
     }
-//    взагалі лишній код :) нам геткар і окремо гетери полів ніде не треба, як буде треба тоді можна використовувати:)
-//    public static Builder getCar() {
-//        return new Builder();
-//
-//    }
-//    public String getModel() {
-//        return model;
-//    }
-//    public String getColor() {
-//        return color;
-//    }
-//    public int getPassengerCapacity() {
-//        return passengerCapacity;
-//    }
-//    public double getEngineCapasity() {
-//        return engineCapacity;
-//    }
+    //геткар щоб дістати з прайватбілдеру.
+    public static Builder getCar() {
+        return new Builder();
+
+    }
+
     static class Builder {
         private Car newCar;
 
-        public Builder(){
+        private Builder(){
             newCar = new Car();
         }
         public Builder withModel(String model){
