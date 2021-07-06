@@ -1,7 +1,7 @@
 package lesson8.homework.task2;
 
 public class Wrapper<T> {
-	T value;
+	private T value;
 	public Wrapper(T value) {
 		this.value = value;
 	}
