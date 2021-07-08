@@ -2,6 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="homework7/Task1"/>
 	<classpathentry kind="src" path="homework7/Task2"/>
+	<classpathentry kind="src" path="homework1"/>
+	<classpathentry kind="src" path="homework2"/>
+	<classpathentry kind="src" path="homework3"/>
+	<classpathentry kind="src" path="homework4"/>
+	<classpathentry kind="src" path="homework5"/>
+	<classpathentry kind="src" path="homework6"/>
+	<classpathentry excluding="Task1/|Task2/" kind="src" path="homework7"/>
+	<classpathentry kind="src" path="homework8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
 		<attributes>
 			<attribute name="module" value="true"/>
