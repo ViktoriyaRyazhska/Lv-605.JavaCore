@@ -18,8 +18,8 @@ public class Homework1 {
 		strSetTwo.addAll(Arrays.asList("duplicate", "duplicateTwo", "test", "testTwo"));
 		
 		//Testing with integers
-		System.out.println("Union: " +union(intSetOne, intSetTwo));
-		//System.out.println("Intersect: " +intersect(intSetOne, intSetTwo));
+		//System.out.println("Union: " +union(intSetOne, intSetTwo));
+		System.out.println("Intersect: " +intersect(intSetOne, intSetTwo));
 		//Testing with Strings
 		//System.out.println("Union: " +union(strSetOne, strSetTwo));
 		System.out.println("Intersect: " +intersect(strSetOne, strSetTwo));
@@ -38,7 +38,7 @@ public class Homework1 {
 			smallerSet = set2;
 			biggerSet = set1;
 		}
-		biggerSet.removeAll(smallerSet);
+		biggerSet.retainAll(smallerSet);
 		return biggerSet;
 	}
 }
