@@ -1,3 +1,5 @@
+package homework8;
+
 import java.util.*;
 
 public class Homework1 {
@@ -29,22 +31,14 @@ public class Homework1 {
 	}
 
 	public static <T> Set<T> intersect(Set<T> set1, Set<T> set2) {
-		// Making a set of object to be removed:
-		Set<T> output = new HashSet<T>();
 
-		// A little optimization
-		// To make less operations we can choose a smaller set to operate with
 		Set<T> smallerSet = set1;
 		Set<T> biggerSet = set2;
 		if (set1.size() >= set2.size()) {
 			smallerSet = set2;
 			biggerSet = set1;
 		}
-		// Iterating through a smaller set to search duplicates in bigger one
-		for (T t : smallerSet) {
-			if (biggerSet.contains(t))
-				output.add(t);
-		}
-		return output;
+		biggerSet.removeAll(smallerSet);
+		return biggerSet;
 	}
 }

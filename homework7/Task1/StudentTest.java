@@ -1,3 +1,4 @@
+package homework7.Task1;
 
 public class StudentTest {
 
