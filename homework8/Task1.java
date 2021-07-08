@@ -36,8 +36,7 @@ public class Task1 {
 		System.out.println(myCollection);
 		
 		//Sorting and print
-		myCollection.sort(Comparator.naturalOrder());
-		//Collections.sort(myCollection);
+		Collections.sort(myCollection);
 		System.out.println(myCollection);
 	}
 	

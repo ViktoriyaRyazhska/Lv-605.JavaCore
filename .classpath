@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="homework7/Task1"/>
-	<classpathentry kind="src" path="homework7/Task2"/>
 	<classpathentry kind="src" path="homework1"/>
 	<classpathentry kind="src" path="homework2"/>
 	<classpathentry kind="src" path="homework3"/>
@@ -10,6 +8,7 @@
 	<classpathentry kind="src" path="homework6"/>
 	<classpathentry excluding="Task1/|Task2/" kind="src" path="homework7"/>
 	<classpathentry kind="src" path="homework8"/>
+	<classpathentry excluding="homework1/|homework2/|homework3/|homework4/|homework5/|homework6/|homework7/|homework8/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
 		<attributes>
 			<attribute name="module" value="true"/>
