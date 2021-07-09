@@ -36,7 +36,7 @@ public class Task1 {
 			StringBuilder stringBuilder = new StringBuilder(strArr[1]);
 			System.out.println("Second word in reversed order: " + stringBuilder.reverse());
 		} else {
-			System.err.println("There are less than 2 words!");
+			System.err.println("There is less than 2 words!");
 			throw new IndexOutOfBoundsException();
 		}
 	}
