@@ -1,6 +1,6 @@
 package lesson11.practTask.task2;
 
-import java.util.EnumSet;
+import java.util.Arrays;
 
 public class Plant {
 	private int size;
@@ -9,7 +9,8 @@ public class Plant {
 
 	public Plant(int size, String color, String type) throws ColorException, TypeException {
 		this.size = size;
-		setColorAndType(color, type);
+		setColor(color);
+		setType(type);
 	}
 
 	@Override
@@ -17,15 +18,16 @@ public class Plant {
 		return "Plant [size=" + size + ", color=" + color + ", type=" + type + "]";
 	}
 
-	private void setColorAndType(String color, String type) throws ColorException, TypeException {
-		find(Color.class, color);
-		find(Type.class, type);
-	}
-	private static <E extends Enum<E>> void find(Class<E> enumT, String values) throws ColorException{
-		EnumSet<E> all = EnumSet.allOf(enumT);
-		if(!all.contains(values.toLowerCase())) {
-			throw new ColorException("Wrong "+ enumT.getCanonicalName());
+	public void setColor(String color) throws ColorException {
+		if (!Arrays.toString(Color.values()).contains(color.toUpperCase())) {
+			throw new ColorException("You have entered non-existing color!");
 		}
-		
+		this.color = Color.valueOf(color.toUpperCase());
+	}
+	public void setType(String type) throws TypeException {
+		if (!Arrays.toString(Type.values()).contains(type.toUpperCase())) {
+			throw new TypeException("You have entered non-existing type!");
+		}
+		this.type = Type.valueOf(type.toUpperCase());
 	}
 }
