@@ -1,0 +1,5 @@
+package lesson3;
+
+public enum Breed {
+    ALASKAN_MALAMUT, LABRADOL_RETRIEVER, DACHSHUND,BEAGLE, FOXHOUND,
+}
