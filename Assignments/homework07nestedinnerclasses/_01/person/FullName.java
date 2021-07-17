@@ -4,11 +4,11 @@ public class FullName {
 	private String firstName;
 	private String lastName;
 
-	public FullName() {
+	private FullName() {
 
 	}
 
-	public FullName(String firstName, String lastName) {
+	private FullName(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
@@ -21,8 +21,7 @@ public class FullName {
 		return lastName;
 	}
 
-	// Ask Vika how to implement Builder in this case
-	public FullNameBuilder getFullName() {
+	public static FullNameBuilder getFullName() {
 		return new FullNameBuilder();
 	}
 
@@ -41,6 +40,10 @@ public class FullName {
 		public FullNameBuilder setLastName(String lastName) {
 			fullName.lastName = lastName;
 			return this;
+		}
+
+		public FullName fullNameBuild() {
+			return fullName;
 		}
 	}
 }

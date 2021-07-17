@@ -17,10 +17,18 @@ public class Car {
 		return new CarBuilder();
 	}
 
+	@Override
+	public String toString() {
+		return "Car [model=" + model + ", dateOfProduction=" + dateOfProduction + ", engineCapacity=" + engineCapacity
+				+ ", color=" + color + ", passengerCapacity=" + passengerCapacity + ", isAirConditioning="
+				+ isAirConditioning + "]";
+	}
+
 	public static class CarBuilder {
-		private Car car = new Car();
+		private Car car;
 
 		private CarBuilder() {
+			car = new Car();
 		}
 
 		public CarBuilder addModel(String model) {
@@ -53,11 +61,8 @@ public class Car {
 			return this;
 		}
 
-		@Override
-		public String toString() {
-			return "Car [model=" + car.model + ", dateOfProduction=" + car.dateOfProduction + ", engineCapacity="
-					+ car.engineCapacity + ", color=" + car.color + ", passengerCapacity=" + car.passengerCapacity
-					+ ", isAirConditioning=" + car.isAirConditioning + "]";
+		public Car buildCar() {
+			return car;
 		}
 	}
 }

@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class Main {
 
 	public static void main(String[] args) {
-		Car.CarBuilder testCar = Car.getCar().addModel("Aston Martin").addDateOfProduction(LocalDate.of(1969, 04, 13))
-				.addColor("cyan").addPassengerCapacity(2);
-		System.out.println(testCar);
+		Car car01 = Car.getCar().addModel("Aston Martin").addDateOfProduction(LocalDate.of(1969, 04, 13))
+				.addColor("cyan").addPassengerCapacity(2).buildCar();
+		System.out.println(car01);
 	}
 }
