@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b28bf46-21af-46ab-a6ba-5dda4a9bf23e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="439b51e6-6c30-4d8e-8a13-d77411eef89e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/lesson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson/src/lesson2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled104.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,15 +28,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1uMEHZ43bSpagcP1dIOpIt84TxJ" />
+  <component name="ProjectId" id="1vXwQrxj53v475rNvJbKtYY4UgP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -84,59 +100,38 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.DogTest">
-    <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.DogTest" />
-      <module name="untitled104" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.Main" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork4.Dog" />
       <module name="untitled104" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DogTest" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b28bf46-21af-46ab-a6ba-5dda4a9bf23e" name="Default Changelist" comment="" />
-      <created>1624466972908</created>
+      <changelist id="439b51e6-6c30-4d8e-8a13-d77411eef89e" name="Default Changelist" comment="" />
+      <created>1626721732377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624466972908</updated>
-      <workItem from="1624466975565" duration="3716000" />
-      <workItem from="1624601103221" duration="4898000" />
-      <workItem from="1624867543605" duration="4340000" />
-      <workItem from="1625129702905" duration="1800000" />
-      <workItem from="1625508376163" duration="597000" />
-      <workItem from="1625638213986" duration="2673000" />
-      <workItem from="1626413376171" duration="1550000" />
-      <workItem from="1626415200637" duration="1880000" />
-      <workItem from="1626719861611" duration="414000" />
+      <updated>1626721732377</updated>
+      <workItem from="1626721734142" duration="516000" />
     </task>
     <servers />
   </component>
@@ -153,6 +148,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
