@@ -30,7 +30,7 @@ public class Practical3 {
 		System.out.println("The shortest line: " + stringLength.toArray()[0]);
 		System.out.println("The longest line: " + stringLength.toArray()[stringLength.toArray().length - 1]);
 
-		printLineWithWord("lay");
+		printLineWithWord("He");
 	}
 
 	public static void printLineWithWord(String word) {
