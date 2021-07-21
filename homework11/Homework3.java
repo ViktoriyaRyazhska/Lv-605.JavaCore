@@ -17,26 +17,18 @@ public class Homework3 {
 				};
 				two.start();
 			}
-			Thread three = new Thread() {
-				@Override
-				public void run() {
-					for (int i = 0; i < 5; i++) {
-						System.out.println("Thread number three");
-					}
-				}
-			};
 		};
 
-//		Thread three = new Thread() {
-//			@Override
-//			public void run() {
-//				for (int i = 0; i < 5; i++) {
-//					System.out.println("Thread number three");
-//				}
-//			}
-//		};
+		Thread three = new Thread() {
+			@Override
+			public void run() {
+				for (int i = 0; i < 5; i++) {
+					System.out.println("Thread number three");
+				}
+			}
+		};
 
 		one.start();
-//		three.start();
+		three.start();
 	}
 }
