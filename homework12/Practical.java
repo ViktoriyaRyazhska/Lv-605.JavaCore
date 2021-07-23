@@ -36,13 +36,10 @@ public class Practical {
 		//Sixth task test
 		System.out.println("--------------------------------------------------");
 		List<String> strList = Arrays.asList("Ann", "Zoltan", "Bob", "Yasmin", "Chloe", "Xena", "David", "William");
-		System.out.println("Sorted list = " + sortStringList(strList));
-		System.out.println("Sorted list = " + strList);
-		
+		System.out.println("Sorted list = " + sortStringList(strList));		
 	}
 	
 	public static List<String> sortStringList(List<String> strList) {
-		List<String> resultStrList = strList;
 		return strList.stream().sorted().collect(Collectors.toList());
 	}
 
