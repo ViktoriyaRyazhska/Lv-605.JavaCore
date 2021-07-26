@@ -1,5 +1,9 @@
 package Lesson13;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Task2 {
     //Create two methods String encrypt(String s, int n) and String decrypt(Sting s, int n)
     //Method encrypt should take a string and return coded string where every letter is moved on n positions in alphabet (e.g. encrypt("abc", 3) returns "def“). Method decrypt should return decoded value
@@ -36,9 +40,11 @@ public class Task2 {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int Count = 1;
-        String originalText = "ABRACADABRA";
+        System.out.println("Write something secret");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String originalText = br.readLine();
         System.out.println("Cipher Example");
         System.out.println("Text  : " + originalText);
         System.out.println("Encryption");

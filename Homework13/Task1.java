@@ -11,11 +11,11 @@ public class Task1 {
             list1.add("ldksafhalskd");
             list1.add("ldksalskd");
             list1.add("skd");
-            list1.add("ldksafhalsewugykd");
+            list1.add("kd");
             list1.add("ldksalskd");
             list1.add("halskd");
             System.out.println("list1 with rendom length  " + list1);
-            list2 = list1;
+            list2.addAll(list1);
             list2.removeIf(n -> (n.length() > 5)); //пасіба Павлу я спочатку просто ремувив з першого ліста
             System.out.println("list2 with length less than 5 characters  " + list2);
 
