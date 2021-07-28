@@ -1,5 +1,6 @@
 package homework12;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
@@ -16,13 +17,16 @@ public class Homework3 {
 	}
 	
 	public static boolean isValidStrict(String input) {
+		LocalDate today = LocalDate.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM.dd.yy");
+		//SimpleDateFormat datettt = 
 		try {
-			LocalDate.parse(input, formatter);
+			LocalDate.parse(today.toString(), formatter);
 			return true;
 		}catch (DateTimeParseException e){
 			System.err.print("Date is not valid! ");
 		}
+		
 		return false;
 	}
 }

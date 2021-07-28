@@ -30,7 +30,7 @@ public class PracticalTask {
 			if (character.equals(currentCharacter))
 				countCharacters++;
 		}
-		System.out.println("There are " + countCharacters + " '" + character + "' characters in the word \"" + testWord + "\".");
-
+		System.out.println(
+				"There are " + countCharacters + " '" + character + "' characters in the word \"" + testWord + "\".");
 	}
 }
