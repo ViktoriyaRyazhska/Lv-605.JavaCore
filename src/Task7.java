@@ -1,4 +1,3 @@
-package softserve.academy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,27 +13,23 @@ public class Task7 {
 		System.out.println("Enter numbers");
 		try {
 			number = Integer.parseInt(br.readLine());
-			}catch (IOException a) {
+		} catch (IOException a) {
 
-			       System.out.println("Wrong");
+			System.out.println("Wrong");
 
-			}
+		}
 		System.out.println(number);
 		int product = 1;
 		int y = 1;
 		if (number != 0) {
-		 for (int i = 0; i < number; i++) {
-			
-			product = product * y;
-			y++;
+			for (int i = 0; i < number; i++) {
+
+				product = product * y;
+				y++;
+			}
 		}
-		}
-		 System.out.println("answer is " + product);
-		 
-		
-		
-		
+		System.out.println("answer is " + product);
+
 	}
-	
 
 }
