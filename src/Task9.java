@@ -4,7 +4,7 @@ public class Task9 {
 
 	public static void main(String[] args) {
 
-		System.out.println("Task2 start");
+		System.out.println("Task9 start");
 
 		Random random = new Random();
 		int number = 98;
@@ -17,6 +17,6 @@ public class Task9 {
 			}
 		}
 		System.out.print("The number 1 was generated randomly for " + counter + " times.");
-		System.out.println("\nTask2 end");
+		System.out.println("\nTask9 end");
 	}
 }

@@ -4,7 +4,7 @@ public class Task5 {
 
 	public static void main(String[] args) {
 
-		System.out.println("Task2 start");
+		System.out.println("Task5 start");
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a word to check if it's a palindrome:");
@@ -26,6 +26,6 @@ public class Task5 {
 			System.out.print(string + " is not a palindrome");
 		}
 
-		System.out.println("\nTask2 end");
+		System.out.println("\nTask5 end");
 	}
 }

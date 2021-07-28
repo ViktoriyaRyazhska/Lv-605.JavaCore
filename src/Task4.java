@@ -4,7 +4,7 @@ public class Task4 {
 
 	public static void main(String[] args) {
 
-		System.out.println("Task2 start");
+		System.out.println("Task4 start");
 
 		int count = 0;
 		Scanner sc = new Scanner(System.in);
@@ -19,6 +19,6 @@ public class Task4 {
 		}
 		System.out.print("Number of vowels in the given sentence is " + count + ".");
 
-		System.out.println("\nTask2 end");
+		System.out.println("\nTask4 end");
 	}
 }
