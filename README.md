@@ -7,7 +7,7 @@ N|Name| HW1 | HW2. Classes|HW3. If...|HW4. Loops|HW5. OOP1 |HW6. OOP2 |HW7. Inne
 3|RomanKlymus|+|+|+|+|+|+|+|+|+|+|+||
 4|OlenaNester|+|+|.||||||||||
 5|HlushkoAndrii|+|+|+||||||||||
-6|Atentat|+|+|+|+|+|+|+|+|+|+|+||
+6|Atentat|+|+|+|+|+|+|+|+|+|+|+|+|
 7|KuzbytMaksym|+|+|||||||||||
 8|Lana Kopotun|+|+|||||||||||
 9|AlexDanihevych|+|+|+|+|+|+|+|+|+||||
